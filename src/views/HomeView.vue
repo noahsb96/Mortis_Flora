@@ -3,6 +3,6 @@
 
 <template>
   <main>
-    <HelloWorld />
+    <Home />
   </main>
 </template>
