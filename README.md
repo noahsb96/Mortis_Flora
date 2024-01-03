@@ -63,7 +63,7 @@ Creating an ECommerce website for Mortis Flora Taxidermy Terrariums. We will cre
 
 # User Stories
 <ul>
-  <li>As a user I want to be directed to a home page that is aesthetically pleasing and clearly states what the business is as well as have clear links to find what I'm looking for/li>
+  <li>As a user I want to be directed to a home page that is aesthetically pleasing and clearly states what the business is as well as have clear links to find what I'm looking for</li>
   <li>As a user I want to go to a quote page where I can fill out a form to get an estimate on how much a taxidermy terrarium would cost that sends to Mortis Flora so they will get back to me in time</li>
   <li>As a user I want to receive an estimate link where I can get a receipt and a page to pay the estimate</li>
   <li>As a user I want to go to a picture page where I can see examples of terrariums that Mortis Flora has created</li>
