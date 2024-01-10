@@ -5,7 +5,13 @@ import Home from './components/Home.vue'
 
 <template>
   <header class="bg-[#EBEEDD]">
-    <div class="flex flex-wrap flex-row justify-between align-middle">
+    <div class="w-screen">
+      <div class="pl-10 pr-10 font-bold text-2xl pt-2">
+        <RouterLink to="/contact" class="float-right mr-64">Contact</RouterLink>
+        <RouterLink to="/about" class="mr-6 float-right">About</RouterLink>
+    </div>
+    </div>
+    <div class="flex flex-wrap flex-row justify-between align-middle w-screen">
       <img src="./logos/IMG_1932.png" class="w-64 ml-40" />
       <RouterLink
         to="/quote"
@@ -19,8 +25,6 @@ import Home from './components/Home.vue'
       >
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/pictures">Pictures</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/contact">Contact</RouterLink>
       </nav>
     </div>
   </header>
