@@ -20,7 +20,7 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
     <div class="pb-6">
       <nav
-        class="border-b-2 border-[#5D612E] flex items-center justify-center space-x-8 font-bold text-2xl"
+        class="border-b-2 border-[#5D612E] flex items-center justify-center space-x-28 font-bold text-5xl"
       >
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/pictures">Pictures</RouterLink>
