@@ -1,8 +1,4 @@
-<script setup lang="ts">
-defineProps<{
-  msg: string
-}>()
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <h1>Mortis Flora</h1>
