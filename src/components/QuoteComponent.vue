@@ -2,12 +2,38 @@
 
 <template>
   <h1 class="text-center text-5xl font-bold pt-5">Terrarium Order Form</h1>
-  <div class="mx-64 px-10 mt-10 bg-white">
-    <p class="py-5">
+  <div class="mx-64 px-10 py-5 mt-10 bg-white">
+    <p>
       <label class="text-2xl font-bold">Your Name:</label>
-      <br>
+      <br />
       <span>
-        <input type="text" placeholder="Your Name" class="border-2 border-[#d2d2d2] w-full text-black rounded-md pl-4 font-bold" />
+        <input
+          type="text"
+          placeholder="Your Name"
+          class="border-2 border-[#d2d2d2] w-full text-black rounded-md pl-4 font-bold"
+        />
+      </span>
+    </p>
+    <p class="pt-5">
+      <label class="text-2xl font-bold">Your Email Address:</label>
+      <br />
+      <span>
+        <input
+          type="email"
+          placeholder="Your Email Address"
+          class="border-2 border-[#d2d2d2] w-full text-black rounded-md pl-4 font-bold"
+        />
+      </span>
+    </p>
+    <p class="pt-5">
+      <label class="text-2xl font-bold">Your Phone Number:</label>
+      <br />
+      <span>
+        <input
+          type="text"
+          placeholder="Your Phone Number"
+          class="border-2 border-[#d2d2d2] w-full text-black rounded-md pl-4 font-bold"
+        />
       </span>
     </p>
   </div>
