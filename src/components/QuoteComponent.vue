@@ -46,6 +46,16 @@
         </select>
       </span>
     </p>
+    <p class="pt-5">
+      <label class="text-2xl font-bold">Any other requests?</label>
+      <br />
+      <span>
+        <textarea
+          placeholder="Any added details for your terrarium"
+          class="border-2 border-[#d2d2d2] w-full text-black rounded-md pl-4 font-bold"
+        ></textarea>
+      </span>
+    </p>
   </div>
 </template>
 

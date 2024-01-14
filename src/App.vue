@@ -19,8 +19,8 @@ import { RouterLink, RouterView } from 'vue-router'
       </div>
     </div>
     <div class="flex flex-wrap flex-row justify-between align-middle w-screen">
-      <RouterLink to="/" class="lg:w-2/12">
-        <img src="./logos/IMG_1932.png" class="w-64 ml-40" />
+      <RouterLink to="/" class="ml-40 lg:w-2/12">
+        <img src="./logos/IMG_1932.png" class="w-64" />
       </RouterLink>
       <RouterLink
         to="/quote"
