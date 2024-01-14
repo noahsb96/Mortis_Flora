@@ -19,7 +19,7 @@ import { RouterLink, RouterView } from 'vue-router'
       </div>
     </div>
     <div class="flex flex-wrap flex-row justify-between align-middle w-screen">
-      <RouterLink to="/">
+      <RouterLink to="/" class="lg:w-2/12">
         <img src="./logos/IMG_1932.png" class="w-64 ml-40" />
       </RouterLink>
       <RouterLink
@@ -30,7 +30,7 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
     <div class="pb-6">
       <nav
-        class="border-b-2 border-[#5D612E] flex items-center justify-center space-x-28 font-bold text-5xl"
+        class="border-b-2 border-[#5D612E] flex items-center justify-center space-x-28 font-bold text-5xl lg:text-4xl"
       >
         <RouterLink to="/" class="py-2 px-4 text-black hover:bg-black hover:text-white rounded-full"
           >Home</RouterLink
