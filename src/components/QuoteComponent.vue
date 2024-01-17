@@ -1,4 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+  import { Component, Vue } from 'vue-facing-decorator';
+  import emailjs from 'emailjs-com';
+</script>
 
 <template>
   <h1 class="text-center text-5xl font-bold pt-5">Terrarium Order Form</h1>
