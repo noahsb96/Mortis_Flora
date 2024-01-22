@@ -1,5 +1,5 @@
 <script lang="ts">
-import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser'
 
 export default {
   methods: {
@@ -7,10 +7,10 @@ export default {
       emailjs
         .sendForm('service_wu6mj7b', 'template_hxo8y4h', this.$refs.form, 'wdqa23HmG2helkMuFGDY0')
         .then(
-          (result) => {
+          (result: { text: any }) => {
             console.log('SUCCESS!', result.text)
           },
-          (error) => {
+          (error: { text: any }) => {
             console.log('FAILED...', error.text)
           }
         )
@@ -63,7 +63,7 @@ export default {
         <label class="text-2xl font-bold">Your Phone Number:</label>
         <br />
         <span>
-          <input type="submit" value="Send">
+          <input type="submit" value="Send" />
         </span>
       </p>
     </div>
