@@ -5,7 +5,7 @@ export default {
   methods: {
     sendEmail() {
       emailjs
-        .sendForm('service_wu6mj7b', 'template_hxo8y4h', this.$refs.form, 'wdqa23HmG2helkMuFGDY0')
+        .sendForm('service_wu6mj7b', 'template_hxo8y4h', this.$refs.form as HTMLFormElement, 'wdqa23HmG2helkMuFGDY0')
         .then(
           (result: { text: any }) => {
             console.log('SUCCESS!', result.text)
