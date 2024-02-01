@@ -2,23 +2,38 @@
 import emailjs from '@emailjs/browser'
 
 export default {
+  name: 'QuoteForm',
+  data() {
+    return {
+      name: '',
+      email: '',
+      phone: ''
+    }
+  },
   methods: {
     sendEmail() {
-      emailjs
-        .sendForm(
+      try {
+        emailjs.sendForm(
           'service_wu6mj7b',
           'template_hxo8y4h',
           this.$refs.form as HTMLFormElement,
-          '6occcHkFY0IHAKc14'
-        )
-        .then(
-          (result: { text: any }) => {
-            console.log('SUCCESS!', result.text)
-          },
-          (error: { text: any }) => {
-            console.log('FAILED...', error.text)
+          '6occcHkFY0IHAKc14',
+          {
+            name: this.name,
+            email: this.email,
+            phone: this.phone
           }
         )
+      } catch (err) {
+        if (err instanceof ReferenceError) {
+          alert('JSON Error: ' + err.message)
+        } else {
+          throw err // rethrow
+        }
+      }
+      this.name = ''
+      this.email = ''
+      this.phone = ''
     }
   }
 }
