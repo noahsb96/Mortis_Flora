@@ -18,6 +18,7 @@ export default {
           'template_hxo8y4h',
           this.$refs.form as HTMLFormElement,
           '6occcHkFY0IHAKc14',
+          // @ts-ignore
           {
             name: this.name,
             email: this.email,
