@@ -1,5 +1,6 @@
 <script lang="ts">
 import emailjs from '@emailjs/browser'
+import { format } from 'path'
 
 export default {
   name: 'QuoteForm',
@@ -32,9 +33,7 @@ export default {
           throw err // rethrow
         }
       }
-      this.name = ''
-      this.email = ''
-      this.phone = ''
+      ;(this.$refs.form as HTMLFormElement).reset()
     }
   }
 }
