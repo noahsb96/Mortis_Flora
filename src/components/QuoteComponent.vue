@@ -1,6 +1,5 @@
 <script lang="ts">
 import emailjs from '@emailjs/browser'
-import { format } from 'path'
 
 export default {
   name: 'QuoteForm',
