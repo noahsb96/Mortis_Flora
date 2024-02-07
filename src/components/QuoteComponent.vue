@@ -39,18 +39,18 @@ export default {
 </script>
 
 <template>
-  <h1 class="text-center text-5xl font-bold pt-5">Terrarium Order Form</h1>
+  <h1 class="text-center text-5xl font-bold pt-5 font-amatic">Terrarium Order Form</h1>
   <form ref="form" @submit.prevent="sendEmail">
     <div class="mx-64 px-10 py-5 mt-10 bg-white">
       <p>
-        <label class="text-2xl font-bold">Your Name:</label>
+        <label class="text-2xl font-bold font-sans">Your Name:</label>
         <br />
         <span>
           <input
             type="text"
             name="name"
             placeholder="Your Name"
-            class="border-2 border-[#d2d2d2] w-full text-black rounded-md pl-4 font-bold"
+            class="border-2 border-[#d2d2d2] w-full text-black rounded-md pl-4"
           />
         </span>
       </p>
@@ -62,7 +62,7 @@ export default {
             type="email"
             name="email"
             placeholder="Your Email Address"
-            class="border-2 border-[#d2d2d2] w-full text-black rounded-md pl-4 font-bold"
+            class="border-2 border-[#d2d2d2] w-full text-black rounded-md pl-4"
           />
         </span>
       </p>
@@ -74,7 +74,7 @@ export default {
             type="text"
             name="phone"
             placeholder="Your Phone Number"
-            class="border-2 border-[#d2d2d2] w-full text-black rounded-md pl-4 font-bold"
+            class="border-2 border-[#d2d2d2] w-full text-black rounded-md pl-4"
           />
         </span>
       </p>

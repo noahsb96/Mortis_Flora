@@ -6,7 +6,8 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      sans: ['Amatic SC', 'Sans-Serif']
+      amatic: ['Amatic SC', 'Sans-Serif'],
+      sans: ['Helvetica', 'Arial', 'sans-serif']
     }
   },
   variants: {
