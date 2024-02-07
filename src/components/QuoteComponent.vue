@@ -78,13 +78,12 @@ export default {
           />
         </span>
       </p>
-      <p class="pt-5">
-        <label class="text-2xl font-bold">Your Phone Number:</label>
-        <br />
-        <span>
-          <button @submit.prevent="sendEmail">Send</button>
-        </span>
-      </p>
+      <button
+        @submit.prevent="sendEmail"
+        class="border-2 border-[#d2d2d2] w-full text-black rounded-md pl-4 mt-8 text-4xl font-amatic font-bold transition-colors duration-300 ease-in-out hover:bg-black hover:text-white"
+      >
+        START MY JOURNEY
+      </button>
     </div>
   </form>
 </template>

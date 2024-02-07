@@ -8,12 +8,12 @@ import { RouterLink, RouterView } from 'vue-router'
       <div class="pl-10 pr-10 font-bold text-3xl pt-2">
         <RouterLink
           to="/contact"
-          class="pt-2 px-4 float-right mr-64 hover:bg-black hover:text-white rounded-full"
+          class="py-2 px-4 float-right mr-64 rounded-full transition-colors duration-300 ease-in-out hover:bg-black hover:text-white"
           >Contact</RouterLink
         >
         <RouterLink
           to="/about"
-          class="pt-2 px-4 mr-6 float-right hover:bg-black hover:text-white rounded-full"
+          class="py-2 px-4 mr-6 float-right rounded-full transition-colors duration-300 ease-in-out hover:bg-black hover:text-white"
           >About</RouterLink
         >
       </div>
@@ -24,7 +24,7 @@ import { RouterLink, RouterView } from 'vue-router'
       </RouterLink>
       <RouterLink
         to="/quote"
-        class="float-right mr-72 mt-auto mb-auto border-2 border-[#5D612E] px-4 py-3 bg-[#5D612E] rounded-full font-bold text-[#EBEEDD] text-3xl hover:bg-black hover:text-white hover:border-black"
+        class="float-right mr-72 mt-auto mb-auto border-2 border-[#5D612E] px-4 py-3 bg-[#5D612E] rounded-full font-bold text-[#EBEEDD] text-3xl transition-colors duration-300 ease-in-out hover:bg-black hover:text-white hover:border-black"
         >Quote Order Form</RouterLink
       >
     </div>
@@ -32,12 +32,14 @@ import { RouterLink, RouterView } from 'vue-router'
       <nav
         class="border-b-2 border-[#5D612E] flex items-center justify-center space-x-28 font-bold text-5xl"
       >
-        <RouterLink to="/" class="pb-2 px-4 text-black hover:bg-black hover:text-white rounded-full"
+        <RouterLink
+          to="/"
+          class="py-2 px-4 text-black rounded-full transition-colors duration-300 ease-in-out hover:bg-black hover:text-white"
           >Home</RouterLink
         >
         <RouterLink
           to="/pictures"
-          class="pb-2 px-4 text-black hover:bg-black hover:text-white rounded-full"
+          class="py-2 px-4 text-black rounded-full transition-colors duration-300 ease-in-out hover:bg-black hover:text-white"
           >Pictures</RouterLink
         >
       </nav>
